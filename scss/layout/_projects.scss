@@ -1,0 +1,9 @@
+@use '../abstracts/' as *;
+
+.projects {
+	&__flex {
+		display: flex;
+		gap: 3rem;
+		align-self: center;
+	}
+}
